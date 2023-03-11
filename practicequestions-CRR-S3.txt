@@ -1,0 +1,11 @@
+CRR BRAIN STROM LAB 
+
+1) Demonstrate CRR(cross region replication) in s3 in which source bucket is in northvirginia and the destination bucket is in mumbai
+2) what happens if you change your source bucket to private and destination bucket as private? still CRR will work?
+3) what happens if you change your source bucket to public and destination bucket as private ? still CRR will work?
+4) what happens if you change your source bucket to public and destination bucket as public? still CRR will work?
+5) What happens if you change the object in source bucket to public? will it be changed to public in destination bucket also?
+6) What happens if you change the object in source bucket to private ?will it be changed to private in destination bucket also or will not change anything?
+7)What happens if you change the object(which came via CRR) in destination bucket to public? will it impact the crr property in any way?
+8) what happens when you delete the object from the source bucket? would it be deleted in destination bucket also?
+9) what happens when you delete the object from the destination bucket? would it be deleted in source bucket also?
