@@ -1,0 +1,18 @@
+a) Create bucket ->Enable versioning -> suspend versioning -> upload a object -> 
+delete the object -> can you bring the object back?
+b) Create bucket -> enable versioning -> upload object (file1) -> 
+suspend versioning -> upload object (file2) -> delete file 2 -> can you bring the 
+file2 back?
+
+c) Create bucket -> enable versioning -> upload object (file1) -> 
+suspend versioning -> upload object (file2) -> delete file 1 -> can you bring the 
+file1 back?
+
+d) Create bucket -> upload object (file1) -> enable versioning -> 
+upload object (file2) -> delete file1 -> can you bring the file1 back?
+
+e) Create bucket -> upload object (file1) -> enable versioning -> 
+upload object (file2) -> delete file2 -> can you bring file2 back?
+
+f) Create bucket  -> upload object (file1) -> enable versiong -> 
+upload object (file2) -> Suspend versioning -> Delete file1 -> Can you bring file1 back??
